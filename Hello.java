@@ -1,13 +1,14 @@
 //For command line git tutorial
-//Local repository modification
+//(first)Local repository modification
+//(second)GitHub modification
 import java.util.*;
 public class Hello{
 	public static void main(String args[]){
 		int sqaurLine,result;
 		Scanner scan = new Scanner(System.in);
-		System.out.print("ºÎÇÇ¸¦ ±¸ÇÒ Á¤»ç°¢Çü¿¡ ¹Øº¯ÀÇ °ªÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä:");
+		System.out.print("ë¶€í”¼ë¥¼ êµ¬í•  ì •ì‚¬ê°í˜•ì— ë°‘ë³€ì˜ ê°’ì„ ì…ë ¥í•´ì£¼ì„¸ìš”:");
 		sqaurLine = scan.nextInt();
 		result = sqaurLine*sqaurLine;
-		System.out.println("ºÎÇÇ´Â"+result+"ÀÔ´Ï´Ù.");
+		System.out.println("ë¶€í”¼ëŠ”"+result+"ì…ë‹ˆë‹¤.");
 
 	}}
